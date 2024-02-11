@@ -26,5 +26,5 @@ Min Max Scaler is suitable when the distribution of your data does not follow a 
 Standard Scaler is suitable when your data features follow a Gaussian distribution and you want to remove the mean and scale to unit variance.
 
 Conclusion
-In summary, Min Max Scaler and Standard Scaler are essential preprocessing techniques in machine learning. They help ensure that features are on the same scale, making it easier for machine learning algorithms to learn from the data effectively. Understanding when and how to use these scalers can greatly improve the performance of your machine learning models.
+Min Max Scaler and Standard Scaler are essential preprocessing techniques in machine learning. They help ensure that features are on the same scale, making it easier for machine learning algorithms to learn from the data effectively. Understanding when and how to use these scalers can greatly improve the performance of your machine learning models.
 
