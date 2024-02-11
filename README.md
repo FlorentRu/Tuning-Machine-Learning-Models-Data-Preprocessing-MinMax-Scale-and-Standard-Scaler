@@ -9,14 +9,14 @@ Description: Min Max Scaler is a technique used to scale features to a specified
 
 How it works:
 
-Min Max Scaler first computes the minimum and maximum values of each feature in the dataset. Then, it applies the transformation to each feature.
+Min Max Scaler first computes the minimum and maximum values of each feature in the dataset. Then, it applies the following transformation X_scaled = (X - X_min)/(X_max - X_min) to each feature.
 
 Standard Scaler
 Description: Standard Scaler, also known as Z-score normalization, standardizes features by removing the mean and scaling to unit variance. It transforms the data to have a mean of 0 and a standard deviation of 1.
 
 How it works:
 
-Standard Scaler first computes the mean and standard deviation of each feature in the dataset. Then, it applies the transformation to each feature.
+Standard Scaler first computes the mean and standard deviation of each feature in the dataset. Then, it applies the following X_standardized = (X - Mu)/(Sigma) transformation to each feature.
 
 Usage
 Both Min Max Scaler and Standard Scaler are available in popular machine learning libraries like scikit-learn and can be easily applied to datasets using their respective classes or functions.
